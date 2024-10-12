@@ -126,6 +126,9 @@
         <mxCell id="yzK9PIs7VhrDUYLbTPSg-45" value="二要素验证" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="77e6c97f196da883-6">
           <mxGeometry x="25" y="730" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="yzK9PIs7VhrDUYLbTPSg-51" value="微信、支付宝、银行卡绑定" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="77e6c97f196da883-6">
+          <mxGeometry x="25" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="yzK9PIs7VhrDUYLbTPSg-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-1" source="yzK9PIs7VhrDUYLbTPSg-47" target="yzK9PIs7VhrDUYLbTPSg-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="120" y="550" as="sourcePoint" />
@@ -167,6 +170,20 @@
         </mxCell>
         <mxCell id="yzK9PIs7VhrDUYLbTPSg-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="yzK9PIs7VhrDUYLbTPSg-48" target="77e6c97f196da883-11">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yzK9PIs7VhrDUYLbTPSg-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="yzK9PIs7VhrDUYLbTPSg-21" target="yzK9PIs7VhrDUYLbTPSg-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="980" />
+              <mxPoint x="590" y="1030" />
+              <mxPoint x="865" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yzK9PIs7VhrDUYLbTPSg-53" value="校验" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yzK9PIs7VhrDUYLbTPSg-52">
+          <mxGeometry x="0.0496" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
