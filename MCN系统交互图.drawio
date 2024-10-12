@@ -1,9 +1,153 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="0-DhrB5vM12cV35gFJNi">
-    <mxGraphModel>
+    <mxGraphModel dx="1221" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="unmJZ40uywcqS07dbzeR-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;方案一&lt;/h1&gt;&lt;p&gt;由于抖音平台并不提供直接获取抖音用户收益情况，故采用MCN用户将主播收益情况导入到本平台，&lt;span style=&quot;background-color: initial;&quot;&gt;平台根据来源、来源平台账号将金额加到对应账号上&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;，再由主播提起申请，平台进行审核后提现到账&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="420" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-17" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="270" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-28" value="收益导入表格" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="110" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-29" value="+姓名&lt;br&gt;+手机号&lt;br&gt;+身份证号&lt;div&gt;+收益来源&lt;/div&gt;&lt;div&gt;+来源平台账号&lt;/div&gt;&lt;div&gt;+收益金额&lt;/div&gt;&lt;div&gt;+收益时间&lt;/div&gt;&lt;div&gt;+备注信息&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="unmJZ40uywcqS07dbzeR-28">
+          <mxGeometry y="50" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-38" value="平台" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="210" y="205" width="200" height="415" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="unmJZ40uywcqS07dbzeR-38" source="unmJZ40uywcqS07dbzeR-32" target="unmJZ40uywcqS07dbzeR-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-32" value="平台审核" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="unmJZ40uywcqS07dbzeR-38">
+          <mxGeometry x="40" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-41" value="绑定抖音" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="unmJZ40uywcqS07dbzeR-38">
+          <mxGeometry x="40" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-48" value="以表格中平台账号对应用户导入主播收益" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="unmJZ40uywcqS07dbzeR-38">
+          <mxGeometry x="40" y="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-53" value="账号内余额提现" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="unmJZ40uywcqS07dbzeR-38">
+          <mxGeometry x="40" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-39" value="抖音" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="470" y="205" width="200" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-43" value="获取并绑定抖音账号、昵称、头像" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="unmJZ40uywcqS07dbzeR-39">
+          <mxGeometry x="40" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="unmJZ40uywcqS07dbzeR-40" target="unmJZ40uywcqS07dbzeR-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-40" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="345" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="unmJZ40uywcqS07dbzeR-41" target="unmJZ40uywcqS07dbzeR-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-45" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.019;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="unmJZ40uywcqS07dbzeR-40" target="unmJZ40uywcqS07dbzeR-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="246" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-46" value="提现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="unmJZ40uywcqS07dbzeR-45">
+          <mxGeometry x="-0.0085" relative="1" as="geometry">
+            <mxPoint x="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-51" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="unmJZ40uywcqS07dbzeR-48" target="unmJZ40uywcqS07dbzeR-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-52" value="依据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="unmJZ40uywcqS07dbzeR-51">
+          <mxGeometry x="-0.2143" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-55" value="税筹服务商" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="470" y="455" width="200" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-56" value="根据提供微信openId/支付宝账号/银行卡号进行提现" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="unmJZ40uywcqS07dbzeR-55">
+          <mxGeometry x="40" y="85" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="unmJZ40uywcqS07dbzeR-53" target="unmJZ40uywcqS07dbzeR-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-58" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;方案二&lt;/h1&gt;&lt;p&gt;由于抖音平台并不提供直接获取抖音用户收益情况，故采用MCN用户将主播收益情况导入到本平台，&lt;span style=&quot;background-color: initial;&quot;&gt;平台根据手机号、身份证号将金额加到对应账号上&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;，再由主播提起申请，平台进行审核后提现到账&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="660" width="420" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-59" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="920" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-60" value="收益导入表格" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="760" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-61" value="+姓名&lt;br&gt;+手机号&lt;br&gt;+身份证号&lt;div&gt;+收益来源&lt;/div&gt;&lt;div&gt;+来源平台账号&lt;/div&gt;&lt;div&gt;+收益金额&lt;/div&gt;&lt;div&gt;+收益时间&lt;/div&gt;&lt;div&gt;+备注信息&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="unmJZ40uywcqS07dbzeR-60">
+          <mxGeometry y="50" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-62" value="平台" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="210" y="855" width="200" height="415" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="unmJZ40uywcqS07dbzeR-62" source="unmJZ40uywcqS07dbzeR-64" target="unmJZ40uywcqS07dbzeR-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-64" value="平台审核" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="unmJZ40uywcqS07dbzeR-62">
+          <mxGeometry x="40" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-65" value="绑定抖音" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="unmJZ40uywcqS07dbzeR-62">
+          <mxGeometry x="40" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-66" value="以表格中&lt;span style=&quot;text-align: left;&quot;&gt;手机号、身份证号&lt;/span&gt;对应用户导入主播收益" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="unmJZ40uywcqS07dbzeR-62">
+          <mxGeometry x="40" y="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-67" value="账号内余额提现" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="unmJZ40uywcqS07dbzeR-62">
+          <mxGeometry x="40" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-68" value="抖音" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="470" y="855" width="200" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-69" value="获取并绑定抖音账号、昵称、头像" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="unmJZ40uywcqS07dbzeR-68">
+          <mxGeometry x="40" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-70" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="unmJZ40uywcqS07dbzeR-71" target="unmJZ40uywcqS07dbzeR-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-71" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="995" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="unmJZ40uywcqS07dbzeR-65" target="unmJZ40uywcqS07dbzeR-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-73" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.019;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="unmJZ40uywcqS07dbzeR-71" target="unmJZ40uywcqS07dbzeR-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="246" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-74" value="提现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="unmJZ40uywcqS07dbzeR-73">
+          <mxGeometry x="-0.0085" relative="1" as="geometry">
+            <mxPoint x="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-75" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="unmJZ40uywcqS07dbzeR-66" target="unmJZ40uywcqS07dbzeR-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-76" value="依据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="unmJZ40uywcqS07dbzeR-75">
+          <mxGeometry x="-0.2143" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-77" value="税筹服务商" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1105" width="200" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-78" value="根据提供微信openId/支付宝账号/银行卡号进行提现" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="unmJZ40uywcqS07dbzeR-77">
+          <mxGeometry x="40" y="85" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="unmJZ40uywcqS07dbzeR-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="unmJZ40uywcqS07dbzeR-67" target="unmJZ40uywcqS07dbzeR-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
