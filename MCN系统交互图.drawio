@@ -11,10 +11,10 @@
           <mxGeometry x="50" y="270" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="unmJZ40uywcqS07dbzeR-28" value="收益导入表格" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="110" width="160" height="170" as="geometry" />
+          <mxGeometry x="10" y="110" width="160" height="180" as="geometry" />
         </mxCell>
         <mxCell id="unmJZ40uywcqS07dbzeR-29" value="+姓名&lt;br&gt;+手机号&lt;br&gt;+身份证号&lt;div&gt;+收益来源&lt;/div&gt;&lt;div&gt;+来源平台账号&lt;/div&gt;&lt;div&gt;+收益金额&lt;/div&gt;&lt;div&gt;+收益时间&lt;/div&gt;&lt;div&gt;+备注信息&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="unmJZ40uywcqS07dbzeR-28" vertex="1">
-          <mxGeometry y="50" width="160" height="120" as="geometry" />
+          <mxGeometry y="50" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="unmJZ40uywcqS07dbzeR-38" value="平台" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="210" y="205" width="200" height="415" as="geometry" />
@@ -83,10 +83,10 @@
           <mxGeometry x="50" y="920" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="unmJZ40uywcqS07dbzeR-60" value="收益导入表格" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="760" width="160" height="170" as="geometry" />
+          <mxGeometry x="10" y="760" width="160" height="180" as="geometry" />
         </mxCell>
         <mxCell id="unmJZ40uywcqS07dbzeR-61" value="+姓名&lt;br&gt;+手机号&lt;br&gt;+身份证号&lt;div&gt;+收益来源&lt;/div&gt;&lt;div&gt;+来源平台账号&lt;/div&gt;&lt;div&gt;+收益金额&lt;/div&gt;&lt;div&gt;+收益时间&lt;/div&gt;&lt;div&gt;+备注信息&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="unmJZ40uywcqS07dbzeR-60" vertex="1">
-          <mxGeometry y="50" width="160" height="120" as="geometry" />
+          <mxGeometry y="50" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="unmJZ40uywcqS07dbzeR-62" value="平台" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="210" y="855" width="200" height="415" as="geometry" />
