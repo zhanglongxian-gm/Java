@@ -129,7 +129,7 @@
         <mxCell id="yzK9PIs7VhrDUYLbTPSg-51" value="微信openId获取" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" parent="77e6c97f196da883-6" vertex="1">
           <mxGeometry x="20" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yzK9PIs7VhrDUYLbTPSg-57" value="银行卡二要素验证" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" parent="77e6c97f196da883-6" vertex="1">
+        <mxCell id="yzK9PIs7VhrDUYLbTPSg-57" value="银行卡二要素验证（姓名、银行卡号）" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" parent="77e6c97f196da883-6" vertex="1">
           <mxGeometry x="20" y="1115" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yzK9PIs7VhrDUYLbTPSg-60" value="直接填写支付宝账号" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBorderColor=default;fontSize=11;" parent="77e6c97f196da883-6" vertex="1">
